@@ -1,2 +1,4 @@
+.venv
 .env
-.ASTER_Tutorial.ipynb
+ASTER-demo.ipynb
+data

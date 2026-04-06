@@ -34,8 +34,8 @@ class BaseOCRDataset(Dataset):
         self.max_length = max_length
 
         # Create character to index mapping
-        self.char_to_idx = {char: idx for idx, char in enumerate(charset)}
-        self.idx_to_char = {idx: char for idx, char in enumerate(charset)}
+        self.char_to_idx = {char: idx for idx, char in enumerate(charset)} #(char : index) dictionary
+        self.idx_to_char = {idx: char for idx, char in enumerate(charset)} #(index : char) dictionary
 
         # Special tokens
         self.sos_token = 0
@@ -130,7 +130,7 @@ class Synth90KDataset(BaseOCRDataset):
 
                 parts = line.split()
                 if len(parts) >= 2:
-                    img_path = self.data_path / parts[0]
+                    img_path = self.data_path / "images" / parts[0]
                     label = " ".join(parts[1:])
 
                     if img_path.exists():
