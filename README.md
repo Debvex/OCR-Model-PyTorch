@@ -42,7 +42,6 @@ Predicted Text
 ├── train.py                       # Training script
 ├── inference.py                   # Inference script
 ├── utils.py                       # Utility functions
-├── ASTER_Tutorial.ipynb           # Jupyter notebook tutorial
 └── README.md                      # This file
 ```
 
