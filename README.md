@@ -154,21 +154,6 @@ python inference.py \
     --output ./results/
 ```
 
-### Jupyter Notebook Tutorial
-
-Open `ASTER_Tutorial.ipynb` for an interactive walkthrough of the architecture:
-
-```bash
-jupyter notebook ASTER_Tutorial.ipynb
-```
-
-The notebook covers:
-- Step-by-step architecture exploration
-- Visualization of each component
-- Training process demonstration
-- Inference examples
-- Customization guide
-
 ## Training Pipeline
 
 ### 1. Pre-training on Synthetic Data
